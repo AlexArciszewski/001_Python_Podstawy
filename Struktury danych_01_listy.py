@@ -178,7 +178,13 @@ print("word"[::-1]) #pierwsze ":" nie ma pozycji startu lecimy od poczatku, drug
 #wynik to: drow
 
  
+# 17: numer max index z listy
+nums = [4, 6, 8, 24, 12, 2]
 
+def max_element_pos(nums):
+    max_index = nums.index(max(nums))
+    return max_index
 
+print(max_element_pos(nums))
 
 
